@@ -1,6 +1,6 @@
 {
     "mongoURI": "mongodb+srv://hareesh123:hareesh123@devconnector-vxr1k.mongodb.net/test?retryWrites=true&w=majority",
     "jwtsecret": "mysecret",
-    "githubClientId": "bf4cb419ced91f24cdc3",
-    "githubSecret":"fc363ce4b6c880aa94c0c7704350b74d94f3745f"
+    "githubClientId": "9ffa9a365143b36fa11e",
+    "githubSecret":"42ecb0e3a6b839b5a33474c33f67918bfd954c75"
 }

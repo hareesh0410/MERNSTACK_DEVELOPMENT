@@ -6,6 +6,7 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const config = require('config');
 const { check, validationResult } = require('express-validator');
+
 //@Route GET api/auth
 //@desc Test route
 //@access public
@@ -25,7 +26,7 @@ router.get('/', auth, async (req, res) => {
 //@desc authenticate user and get token 
 //@access public
 router.post('/', [
-    check('email', 'please inclide a valid email').isEmail(),
+    check('email', 'please include a valid email').isEmail(),
     check('password', 'Password is required').exists()
 ], async (req, res) => {
     const errors = validationResult(req);
